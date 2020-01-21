@@ -3,7 +3,7 @@ layout: post
 title:  "Realtime CSS updates"
 categories: [css]
 ---
-E se tentássemos estilizarmos algumas tags mais.. incomuns? Por exemplo:
+What if we try to style any.. uncommon tags? Example:
 
 {% highlight ruby %}
 style {
@@ -18,7 +18,9 @@ style {
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Com esse simples estilo, todos os `<style>` que existirem em sua página passarão a ser renderizados na página. Isso tem pouca utilidade (apesar de ser divertido), portanto, vamos adicionar algo mais útil. Mantenha o estilo adicionado acima, e no seu elemento `<style>` adicione:
+This way, every `<style>` tag found on DOM will be rendered as visible page elements.
+Ok, this is not very usefull (although is fun), so let's find some utility for it. 
+With the css above implement, add that following attribute to your `<style>` tag:
 
 {% highlight ruby %}
 <style contenteditable="true">
@@ -26,8 +28,8 @@ Com esse simples estilo, todos os `<style>` que existirem em sua página passar�
 </style>
 {% endhighlight %}
 
-Agora, é possível editar esse estilo diretamente da sua página, e ver os estilos atualizando em tempo real.
+Now it's possible edit this style directly in your page, and see the results updated in realtime.
 
-É possível fazer isso com qualquer elemento html, mesmo eles tendo o comportamento nativo de não serem renderizados na tela. Que tal testar com `<script>`, `<head>` e afins?
+In theory, is possible doing this approach with any DOM element, even they having the default behavior of not being displayed to the page. Why not try with `<script>`, `<head>` and etc?
 
 `<seeyou />`

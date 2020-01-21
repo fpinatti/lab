@@ -3,15 +3,15 @@ layout: post
 title:  "Yes! Labs no ar!"
 categories: [misc]
 ---
-Li há uns dias atrás que se você tem uma idéia e não compartilha com ninguém, é como se você não tivesse tido a idéia.
+I read some days ago that, if you have something in your mind and don't share it, this is like you never had the idea.
 
-Então, pra ter um espaço pra compartilhar o caminhão de idéias e projetos que tenho, esse espaço foi criado. Espero contar inclusive com a colaboração de amigos developers pra enriquecer ainda mais o conteúdo.
+That's why I created this space, to share a truck of ideas and projects. Hopefully I can count on friend's collab to make this project even richer and dynamic!
 
+**What is expected to find here?**
 
-**O que vai ter aqui?**
+Cool experiments, specially coming from frontend ecosystem (but not restricted to it).
+Share and learn with all of you, friends and curious guys, like me.
 
-Experimentações massas, principalmente do mundo frontend (mas não limitado a isso). Compartilhar e aprender com os amigos e curiosos (como eu) de plantão.
-
-Nos vemos por aí!
+See you around!
 
 `<seeyou />`

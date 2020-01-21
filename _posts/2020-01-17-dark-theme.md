@@ -3,17 +3,15 @@ layout: post
 title:  "Dark Theme"
 categories: [css]
 ---
+A feature found in several apps nowadays, dark theme brings some real life benefits:
 
-
-Comum atualmente em diversas aplicações, o modo escuro traz diversos benefícios:
-
-* Melhorar legibilidade de texto
-* Melhora contraste 
-* Reduz fatiga ocular
-* Menos flicker (se o problema existir)
-* Menos luz azul
-* Menor tendencia a ativar fotofobia
-* Ajuda otimizar consumo de enegia  
+* Increase text readibility
+* Increase contrast 
+* Reduces eyestrain
+* Less flicker (is problem exists)
+* Less blue light
+* Less trending to trigger photofobia
+* Helps optimize energy consumption  
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="pinatti" data-slug-hash="vYEvObb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="dark mode">
   <span>See the Pen <a href="https://codepen.io/pinatti/pen/vYEvObb">
@@ -22,9 +20,9 @@ Comum atualmente em diversas aplicações, o modo escuro traz diversos benefíci
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Existem diversas ferramentas que já ajudam com isso, em grande parte adicionam alguma classe no `<body>`, que muda o estilo dos elementos desejados. 
+The easiest way to implement is add some class to the `<body>` and manage the desired elements based on it. 
 
-Ex:
+ie:
 
 {% highlight ruby %}
 body {
@@ -35,21 +33,21 @@ body.dark {
   background-color: black;
 }
 
-.qualquer-classe {
+.any-class {
   background-color: red;
   color: white;
 }
 
-body.dark .qualquer-classe {
+body.dark .any-class {
   background-color: white;
   color: red;
 }
 
 {% endhighlight %}
 
-<button onclick="document.querySelector('body').classList.toggle('dark')">Clica aqui pra alterar o tema</button>
+<button onclick="document.querySelector('body').classList.toggle('dark')">Click to toggle theme</button>
 
-Mas, e se conseguissemos verificar se o sistema do usuário já esteja configurado pra utilizar o dark mode (alguns apps/os's permitem configurar isso)?
+But what about check the user's system preferences and apply light/dark theme accordingly automatically?
 
 {% highlight ruby %}
 
@@ -64,11 +62,9 @@ body {
 }
 {% endhighlight %}
 
-Dessa maneira, é possível ajustar o layout de uma aplicação baseada nas preferências do usuário. 
+This page is experimentally using this feature in a really simple way.
 
-Inclusive, essa página já está usando esse recurso.
-
-Animal, né?
+Isn't it so cool? :)
 
 `<seeyou />`
 
