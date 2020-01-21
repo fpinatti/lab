@@ -1,10 +1,15 @@
-I"<p>Em documentos .html, trabalhamos e estilizamos diversas tags, como <code class="highlighter-rouge">div's</code>, <code class="highlighter-rouge">a's</code>, <code class="highlighter-rouge">span's</code>, etc.</p>
-
-<p>Mas e se estilizarmos algumas tags mais.. incomuns? Por exemplo:</p>
+I"�<p>E se tentássemos estilizarmos algumas tags mais.. incomuns? Por exemplo:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">style</span> <span class="p">{</span>
   <span class="ss">display: </span><span class="n">block</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="pinatti" data-slug-hash="OJPrVEe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="realtime editable css">
+  <span>See the Pen <a href="https://codepen.io/pinatti/pen/OJPrVEe">
+  realtime editable css</a> by Fabio Pinatti (<a href="https://codepen.io/pinatti">@pinatti</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 <p>Com esse simples estilo, todos os <code class="highlighter-rouge">&lt;style&gt;</code> que existirem em sua página passarão a ser renderizados na página. Isso tem pouca utilidade (apesar de ser divertido), portanto, vamos adicionar algo mais útil. Mantenha o estilo adicionado acima, e no seu elemento <code class="highlighter-rouge">&lt;style&gt;</code> adicione:</p>
 
@@ -15,4 +20,6 @@
 <p>Agora, é possível editar esse estilo diretamente da sua página, e ver os estilos atualizando em tempo real.</p>
 
 <p>É possível fazer isso com qualquer elemento html, mesmo eles tendo o comportamento nativo de não serem renderizados na tela. Que tal testar com <code class="highlighter-rouge">&lt;script&gt;</code>, <code class="highlighter-rouge">&lt;head&gt;</code> e afins?</p>
+
+<p><code class="highlighter-rouge">&lt;seeyou /&gt;</code></p>
 :ET

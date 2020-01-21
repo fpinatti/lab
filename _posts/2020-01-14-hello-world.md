@@ -13,3 +13,5 @@ Então, pra ter um espaço pra compartilhar o caminhão de idéias e projetos qu
 Experimentações massas, principalmente do mundo frontend (mas não limitado a isso). Compartilhar e aprender com os amigos e curiosos (como eu) de plantão.
 
 Nos vemos por aí!
+
+`<seeyou />`

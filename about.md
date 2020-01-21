@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm Fabio Pinatti, Brazilian, married with the most amazing wife I could have and father of the two cutest children in the earth.
+
+I work with frontend and motion design since rock ages, with more than 20 years of expertise,  coming from Visual Basic apps, Flash/Actionscript and currently all the trending frontend stuff, like HTML, CSS, Javascript, etc.  I work as a designer as well, designing interfaces for digital products.
+
+My mission is connect the tips, since the conception of a project, until its completion, delivering the best solutions for the final user.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+This blog is a technical resource for devs, covering all I consider useful for me and could be helpful for another people.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[fpinatti@gmail.com](mailto:fpinatti@gmail.com)
