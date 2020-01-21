@@ -1,25 +1,25 @@
-I"`<p>Comum atualmente em diversas aplicações, o modo escuro traz diversos benefícios:</p>
+I"�<p>A feature found in several apps nowadays, dark theme brings some real life benefits:</p>
 
 <ul>
-  <li>Melhorar legibilidade de texto</li>
-  <li>Melhora contraste</li>
-  <li>Reduz fatiga ocular</li>
-  <li>Menos flicker (se o problema existir)</li>
-  <li>Menos luz azul</li>
-  <li>Menor tendencia a ativar fotofobia</li>
-  <li>Ajuda otimizar consumo de enegia</li>
+  <li>Increase text readibility</li>
+  <li>Increase contrast</li>
+  <li>Reduces eyestrain</li>
+  <li>Less flicker (is problem exists)</li>
+  <li>Less blue light</li>
+  <li>Less trending to trigger photofobia</li>
+  <li>Helps optimize energy consumption</li>
 </ul>
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="pinatti" data-slug-hash="ExaOvey" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Scribbler">
-  <span>See the Pen <a href="https://codepen.io/pinatti/pen/ExaOvey">
-  Scribbler</a> by Fabio Pinatti (<a href="https://codepen.io/pinatti">@pinatti</a>)
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="pinatti" data-slug-hash="vYEvObb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="dark mode">
+  <span>See the Pen <a href="https://codepen.io/pinatti/pen/vYEvObb">
+  dark mode</a> by Fabio Pinatti (<a href="https://codepen.io/pinatti">@pinatti</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p>Existem diversas ferramentas que já ajudam com isso, em grande parte adicionam alguma classe no <code class="highlighter-rouge">&lt;body&gt;</code>, que muda o estilo dos elementos desejados.</p>
+<p>The easiest way to implement is add some class to the <code class="highlighter-rouge">&lt;body&gt;</code> and manage the desired elements based on it.</p>
 
-<p>Ex:</p>
+<p>ie:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">body</span> <span class="p">{</span>
   <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
@@ -29,19 +29,19 @@
   <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">black</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="p">.</span><span class="nf">qualquer</span><span class="o">-</span><span class="n">classe</span> <span class="p">{</span>
+<span class="p">.</span><span class="nf">any</span><span class="o">-</span><span class="k">class</span> <span class="p">{</span>
   <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">red</span><span class="p">;</span>
   <span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="n">body</span><span class="p">.</span><span class="nf">dark</span> <span class="p">.</span><span class="nf">qualquer</span><span class="o">-</span><span class="n">classe</span> <span class="p">{</span>
+<span class="n">body</span><span class="p">.</span><span class="nf">dark</span> <span class="p">.</span><span class="nf">any</span><span class="o">-</span><span class="k">class</span> <span class="p">{</span>
   <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
   <span class="ss">color: </span><span class="n">red</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p><button onclick="document.querySelector('body').classList.toggle('dark')">Clica aqui pra alterar o tema</button></p>
+<p><button onclick="document.querySelector('body').classList.toggle('dark')">Click to toggle theme</button></p>
 
-<p>Mas, e se conseguissemos verificar se o sistema do usuário já esteja configurado pra utilizar o dark mode (alguns apps/os’s permitem configurar isso)?</p>
+<p>But what about check the user’s system preferences and apply light/dark theme accordingly automatically?</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">body</span> <span class="p">{</span>
   <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
@@ -53,13 +53,11 @@
   <span class="p">}</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Dessa maneira, é possível ajustar o layout de uma aplicação baseada nas preferências do usuário.</p>
+<p>This page is experimentally using this feature in a really simple way.</p>
 
-<p>Inclusive, essa página já está usando esse recurso.</p>
+<p>Isn’t it so cool? :)</p>
 
-<p>Animal, né?</p>
-
-<p><code class="highlighter-rouge">&lt;tchau /&gt;</code></p>
+<p><code class="highlighter-rouge">&lt;seeyou /&gt;</code></p>
 
 <style>
 
