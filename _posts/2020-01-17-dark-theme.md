@@ -3,10 +3,10 @@ layout: post
 title:  "Dark Theme"
 categories: [css]
 ---
-A feature found in several apps nowadays, dark theme brings some real life benefits:
+A feature found in several apps, dark theme brings some real life benefits:
 
 * Increase text readibility
-* Increase contrast 
+* Increase contrast
 * Reduces eyestrain
 * Less flicker (is problem exists)
 * Less blue light
@@ -20,7 +20,7 @@ A feature found in several apps nowadays, dark theme brings some real life benef
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-The easiest way to implement is add some class to the `<body>` and manage the desired elements based on it. 
+The easiest way to implement is adding some class to the `<body>` and manage the desired elements based on it. 
 
 ie:
 

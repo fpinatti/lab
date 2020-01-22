@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Yes! Labs no ar!"
+title:  "Yes! Labs live!"
 categories: [misc]
 ---
-I read some days ago that, if you have something in your mind and don't share it, this is like you never had the idea.
+I read some days ago that, if you have something in your mind and don't share it, it's like you never had the idea.
 
 That's why I created this space, to share a truck of ideas and projects. Hopefully I can count on friend's collab to make this project even richer and dynamic!
 

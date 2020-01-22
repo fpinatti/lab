@@ -1,0 +1,100 @@
+I"�<p>A feature found in several apps, dark theme brings some real life benefits:</p>
+
+<ul>
+  <li>Increase text readibility</li>
+  <li>Increase contrast</li>
+  <li>Reduces eyestrain</li>
+  <li>Less flicker (is problem exists)</li>
+  <li>Less blue light</li>
+  <li>Less trending to trigger photofobia</li>
+  <li>Helps optimize energy consumption</li>
+</ul>
+
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="pinatti" data-slug-hash="vYEvObb" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="dark mode">
+  <span>See the Pen <a href="https://codepen.io/pinatti/pen/vYEvObb">
+  dark mode</a> by Fabio Pinatti (<a href="https://codepen.io/pinatti">@pinatti</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p>The easiest way to implement is adding some class to the <code class="highlighter-rouge">&lt;body&gt;</code> and manage the desired elements based on it.</p>
+
+<p>ie:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">body</span> <span class="p">{</span>
+  <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">body</span><span class="p">.</span><span class="nf">dark</span> <span class="p">{</span>
+  <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">black</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nf">any</span><span class="o">-</span><span class="k">class</span> <span class="p">{</span>
+  <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">red</span><span class="p">;</span>
+  <span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">body</span><span class="p">.</span><span class="nf">dark</span> <span class="p">.</span><span class="nf">any</span><span class="o">-</span><span class="k">class</span> <span class="p">{</span>
+  <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
+  <span class="ss">color: </span><span class="n">red</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p><button onclick="document.querySelector('body').classList.toggle('dark')">Click to toggle theme</button></p>
+
+<p>But what about check the user’s system preferences and apply light/dark theme accordingly automatically?</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">body</span> <span class="p">{</span>
+  <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">white</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="vi">@media</span> <span class="p">(</span><span class="n">prefers</span><span class="o">-</span><span class="n">color</span><span class="o">-</span><span class="ss">scheme: </span><span class="n">dark</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">body</span> <span class="p">{</span>
+    <span class="n">background</span><span class="o">-</span><span class="ss">color: </span><span class="n">black</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>This page is experimentally using this feature in a really simple way.</p>
+
+<p>Isn’t it so cool? :)</p>
+
+<p><code class="highlighter-rouge">&lt;seeyou /&gt;</code></p>
+
+<style>
+
+body {
+transition: background .3s;
+}
+
+body.dark {
+  background-color: #242424;
+}
+.dark h1,
+.dark p,
+.dark ul,
+.dark .date {
+  color: #f5f5f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+  }
+  h1, p, ul, .date {
+    color: #f5f5f5;
+  }
+
+  body.dark {
+    background-color: #f5f5f5;
+  }
+  .dark h1,
+  .dark p,
+  .dark ul,
+  .dark .date {
+    color: #242424;
+  }
+
+}
+
+</style>
+
+:ET
